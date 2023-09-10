@@ -3413,12 +3413,17 @@ input, select, textarea {
 
 	#intro .logo {
 		border-bottom: 0;
-		display: inline-block;
+		/* display: inline-block; */
 		margin: 0 0 1em 0;
 		overflow: hidden;
 		position: relative;
 		width: 4em;
 	}
+	@media screen and (min-width: 0px) and (max-width: 1024px) { /* temporary solution */
+		#intro .logo {
+			display: inline-block;
+		}
+	  }
 
 		#intro .logo:before {
 			/* background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100px' height='100px' viewBox='0 0 100 100' preserveAspectRatio='none' zoomAndPan='disable'%3E%3Cpolygon points='0,0 100,0 100,25 50,0 0,25' style='fill:%23f4f4f4' /%3E%3Cpolygon points='0,100 100,100 100,75 50,100 0,75' style='fill:%23f4f4f4' /%3E%3C/svg%3E"); */
@@ -3436,8 +3441,12 @@ input, select, textarea {
 
 		#intro .logo img {
 			display: block;
-			margin-left: -0.25em;
-			width: 4.5em;
+			/* margin-left: -0.25em; */
+			/* width: 4.5em; */
+			width: 300px;
+			height: 460px;
+			z-index: 100;
+			position: relative;
 		}
 
 	#intro header h2 {
