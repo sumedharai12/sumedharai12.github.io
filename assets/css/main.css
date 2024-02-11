@@ -30,7 +30,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;}
 
 body {
-	line-height: 1;
+	line-height: 0.3;
 }
 
 ol, ul {
@@ -135,8 +135,8 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #787878;
-		font-weight: 400;
+		color: black;
+		font-weight: 800;
 		line-height: 1em;
 		margin: 0 0 1em 0;
 	}
@@ -2075,11 +2075,11 @@ input, select, textarea {
 				color: #fff;
 				content: 'View';
 				display: inline-block;
-				font-size: 0.8em;
+				font-size: 1.2em;
 				font-weight: 400;
 				left: 50%;
 				line-height: 2.25em;
-				margin: -1.25em 0 0 -3em;
+				margin: -1.25em 0 0 -2.25em;
 				opacity: 0;
 				padding: 0 1.5em;
 				position: absolute;
@@ -2682,10 +2682,10 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		margin-left: 35%;
-		max-width: 54em;
+		margin-left: 25%;
+		/* max-width: 54em; */
 		padding: 2em 4em 0.5em 4em;
-		width: calc(100% - 35%);
+		width: calc(100% - 25%);
 	}
 
 		#main > section {
