@@ -72,7 +72,7 @@
     line-height: 1;
 
     opacity: .55;
-    color: black;
+    color: #49bf9d;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -80,7 +80,7 @@
 
 .slick-prev
 {
-    left: -55px;
+    left: -35px;
 }
 [dir='rtl'] .slick-prev
 {
@@ -98,7 +98,7 @@
 
 .slick-next
 {
-    right: -25px;
+    right: -5px;
 }
 [dir='rtl'] .slick-next
 {

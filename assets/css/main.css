@@ -99,8 +99,10 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		/* color: #a2a2a2; */
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 16pt;
+		/* font-family: "Source Sans Pro", Helvetica, sans-serif; */
+		font-family: 'Times New Roman', Times, serif;
+		/* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+		font-size: 18pt;
 		font-weight: 400;
 		line-height: 1.75em;
 	}
@@ -131,7 +133,7 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 0 0 0 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -2070,7 +2072,7 @@ input, select, textarea {
 				-webkit-transition: opacity 0.2s ease-in-out;
 				-ms-transition: opacity 0.2s ease-in-out;
 				transition: opacity 0.2s ease-in-out;
-				border-radius: 0.35em;
+				border-radius: 20px;
 				border: solid 3px rgba(255, 255, 255, 0.5);
 				color: #fff;
 				content: 'View';
@@ -2160,7 +2162,7 @@ input, select, textarea {
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2em 0;
+		margin: 0 0 0 0;
 		padding-left: 1em;
 	}
 
@@ -2205,7 +2207,7 @@ input, select, textarea {
 			}
 
 			ul.icons li .icon:before {
-				font-size: 2em;
+				font-size: 3em;
 			}
 
 /* Labeled Icons */
@@ -2446,13 +2448,13 @@ input, select, textarea {
 		background-color: transparent;
 		border-radius: 0.35em;
 		border: solid 3px #efefef;
-		color: #787878 !important;
+		color: #efefef;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 400;
 		height: 3.15em;
-		height: calc(2.75em + 6px);
-		line-height: 2.75em;
+		height: calc(2em + 2px);
+		line-height: 1.75em;
 		min-width: 10em;
 		padding: 0 1.5em;
 		text-align: center;
