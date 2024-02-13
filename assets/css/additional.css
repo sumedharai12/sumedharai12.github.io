@@ -40,7 +40,8 @@
 }
 .project-image {
     flex: 1;
-    height: 500px; /* adjust height as needed */
+    height: 600px; /* adjust height as needed */
+    /* width: 100%; */
     position: relative;
     background-size: cover;
     background-position: center;
