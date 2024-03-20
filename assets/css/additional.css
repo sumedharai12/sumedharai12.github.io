@@ -40,7 +40,8 @@
 }
 .project-image {
     flex: 1;
-    height: 500px; /* adjust height as needed */
+    height: 600px; /* adjust height as needed */
+    /* width: 100%; */
     position: relative;
     background-size: cover;
     background-position: center;
@@ -50,9 +51,9 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 45%; /* 25% of the container */
+    width: 40%; /* 25% of the container */
     height: 100%; /* Full height of the container */
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.9);
     color: white;
     text-shadow: black 1px 1px;
     padding: 0px 15px 0px 15px;
@@ -75,9 +76,9 @@
     position: absolute;
     top: 0;
     right: 0;
-    width: 45%; /* 25% of the container */
+    width: 40%; /* 25% of the container */
     height: 100%; /* Full height of the container */
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.9);
     color: white;
     text-shadow: black 1px 1px;
     padding: 10px;
@@ -91,6 +92,7 @@
 }
 .actions {
     margin-top: 20px;
+    justify-content: center;
 }
 
 .actions input[type="submit"] {
@@ -100,6 +102,7 @@
     /* Quick on the way out */
     transition: 0.2s;
     margin-bottom: 40px;
+    
 }
 .actions input[type="submit"]:hover {
     transform: scale(1.2);
