@@ -151,16 +151,31 @@
 					<h2>Get In Touch</h2>
 					<div class="row">
 						<div class="col-8 col-12-small">
-							<form method="post" action="#">
+							<form method="post" action="https://formspree.io/f/your-form-id">
 								<div class="row gtr-uniform gtr-50">
-									<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
-									<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
-									<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+									<div class="col-6 col-12-xsmall">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" placeholder="Name" required />
+									</div>
+									<div class="col-6 col-12-xsmall">
+										<label for="email">Email</label>
+										<input type="email" name="email" id="email" placeholder="Email" required />
+									</div>
+									<div class="col-12">
+										<label for="subject">Subject</label>
+										<input type="text" name="subject" id="subject" placeholder="Subject" required />
+									</div>
+									<div class="col-12">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" placeholder="Message" rows="4" required></textarea>
+									</div>
+									<!-- Hidden input for email reply-to -->
+									<input type="hidden" name="_replyto" value="anton.james.ja@gmail.com">
 								</div>
+								<ul class="actions">
+									<li><input type="submit" class="send-message" value="Send Message" /></li>
+								</ul>
 							</form>
-							<ul class="actions">
-								<li><input type="submit" class="send-message" value="Send Message" /></li>
-							</ul>
 						</div>
 						<div class="col-4 col-12-small">
 							<ul class="labeled-icons">
@@ -169,18 +184,17 @@
 									<a href="mailto:s.rai@nyu.edu" target="_blank">s.rai@nyu.edu</a>
 								</li>
 								<li>
-									<h3 class="social icon brands fa-github"><span class="label">Email</span></h3>
+									<h3 class="social icon brands fa-github"><span class="label">GitHub</span></h3>
 									<a href="https://github.com/sumedharai12" target="_blank">https://github.com/sumedharai12</a>
 								</li>
 								<li>
-									<h3 class="social icon brands fa-linkedin"><span class="label">Email</span></h3>
+									<h3 class="social icon brands fa-linkedin"><span class="label">LinkedIn</span></h3>
 									<a href="https://www.linkedin.com/in/sumedharai/" target="_blank">https://www.linkedin.com/in/sumedharai</a>
 								</li>
 							</ul>
 						</div>
 					</div>
-				</section>
-
+				</section>				
 
 		<!-- Footer -->
 			<footer id="footer">
