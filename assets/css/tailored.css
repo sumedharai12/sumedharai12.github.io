@@ -23,13 +23,17 @@
     border-radius: 10px;
 }
 
-.item {
+.work {
     transition: all 0.2s;
     border-radius: 10px;
+    overflow: hidden;
+    display: block;
+    margin-bottom: 1.5em;
 }
-.item:hover {
+.work:hover {
     transition: all 0.3s ease-in-out;
     transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(30, 0, 255, 0.3);
 }
 
 #contact {
