@@ -1,0 +1,37 @@
+.header-text {
+    color: white;
+    text-shadow: 0.5px 0.5px 1px black;
+}
+
+/* social media icons size */
+.icon {
+    font-size: 30px;
+}
+
+#logo {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.bottom {
+    justify-self: end;
+}
+
+#picture {
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+}
+
+.item {
+    transition: all 0.2s;
+    border-radius: 10px;
+}
+.item:hover {
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+
+#contact {
+    padding: 0 0 0 0;
+}
