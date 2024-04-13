@@ -24,16 +24,17 @@
 }
 
 .work {
-    transition: all 0.2s;
+    transition: all 0.3s;
     border-radius: 10px;
     overflow: hidden;
     display: block;
     margin-bottom: 1.5em;
+    box-shadow: 0 0 10px rgba(0, 0, 1, 0.3);
 }
 .work:hover {
     transition: all 0.3s ease-in-out;
-    transform: scale(1.1);
-    box-shadow: 0 0 10px rgba(30, 0, 255, 0.3);
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
 }
 
 #contact {
