@@ -41,20 +41,21 @@
     padding: 0 0 0 0;
 }
 /* Sticker styling */
-
-.sticker {
-    position: absolute;
-    top: 20px;
-    left: 0px;
-    background-color: red;
-    padding: 2px 10px 2px 10px;
-    z-index: 10;
-    text-align: left;
+header h3 {
+    z-index: 100;
 }
-
-.sticker p {
+.sticker-home {
+    position: relative;
+}
+.sticker-upcoming {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background-color: rgb(79, 241, 130);
+    padding: 0 5px 0 5px;
+    border-radius: 10px 0px 0px 0px;
     margin: 0;
-    font-size: 20px;
-    color: #ffffff;
-    font-weight: 500;
+    font-size: 10px;
+    color: #000000;
+    font-weight: 700;
 }
