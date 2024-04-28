@@ -42,40 +42,19 @@
 }
 /* Sticker styling */
 
-.image-container {
-    position: relative;
-    overflow: hidden; /* Ensure the sticker doesn't overflow */
-}
-
 .sticker {
     position: absolute;
-    bottom: 0px;
-    right: 0px;
-    background-color: red; /* Initial red color */
+    top: 20px;
+    left: 0px;
+    background-color: red;
     padding: 2px 10px 2px 10px;
-    border-radius: 0 10px 0 0; /* Adjusted border-radius */
-    z-index: 10; /* Ensure it's above other content */
-    transition: all 0.3s ease; /* Smooth transition */
+    z-index: 10;
     text-align: left;
 }
-
-.sticker:before {
-    content: "";
-    position: absolute;
-    top: 50%; /* Start the cutout from the middle vertically */
-    right: -20px; /* Adjust the position of the triangular cutout */
-    width: 0;
-    height: 0;
-    border-top: 10px solid transparent; /* Height of the triangular cutout */
-    border-bottom: 10px solid transparent; /* Height of the triangular cutout */
-    border-left: 20px solid red; /* Width of the triangular cutout and color */
-    transform: translateY(-50%); /* Adjust to vertically center the cutout */
-}
-
 
 .sticker p {
     margin: 0;
     font-size: 20px;
-    color: #000000;
+    color: #ffffff;
     font-weight: 500;
 }
