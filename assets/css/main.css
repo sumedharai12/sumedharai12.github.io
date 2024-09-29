@@ -2632,3 +2632,10 @@ input, select, textarea {
 				}
 
 	}
+
+	p {
+		text-align: left;
+	}
+	.text-middle {
+		text-align: center;
+	}
